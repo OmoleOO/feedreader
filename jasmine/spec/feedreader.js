@@ -98,7 +98,7 @@ $(function() {
 
 
 
-    /* TODO: Write a new test suite named "New Feed Selection" */
+    /* test suite named "New Feed Selection" */
 	describe("New Feed Selection", function(){
 		/* test that ensures when a new feed is loaded
          * by the loadFeed function that the content actually changes.
