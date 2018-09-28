@@ -92,7 +92,7 @@ $(function() {
 		 });
 
 		 it('at least a single element is defined', function(){
-			expect($(".entry .feed")).toBeDefined();
+			expect($(".feed .entry").length).toBeGreaterThan(0);
 		 });
 	});
 
